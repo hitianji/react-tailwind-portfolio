@@ -17,5 +17,5 @@ export const Footer = () => {
           <ArrowUp size={30}/>
         </a>
     </footer>
-  );
+  )
 };

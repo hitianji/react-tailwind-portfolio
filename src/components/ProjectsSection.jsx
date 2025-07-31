@@ -4,8 +4,8 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
     {
       id: 1,
-      title: "SaaS Landing Page",
-      description: "A beautiful landing page app using React and TailwindCSS",
+      title: "Job Placement Prediction",
+      description: "A machine learning model that predicts job placement based on user input",
       image: "/projects/IMG_3256.jpg",
       tags: ["React", "TailwindCSS", "Supabase"],
       demoUrl: "#", // live demo

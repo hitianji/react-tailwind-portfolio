@@ -16,7 +16,7 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               二十二歳です。カリフォルニア大学サンタバーバラ校にもう卒業して、 
-              統計学の学士号を取ったことがありました。現在日立という日本の最もの有名な会社で働いています。 
+              学士号を取ったことがありました。現在日立という日本の最もの有名な会社で働いています。 
               日立研究所でAIと、機械学習のような技術を研究しています。来月、電気工学の修士号を取るために、 
               デユーク大学に入学する予定です。将来は、AIと機械学習の分野で、
               日本とアメリカの技術を融合させた新しい技術を開発したいと思っています。 
@@ -36,7 +36,7 @@ export const AboutSection = () => {
                 Contact
               </a>
 
-              <a href="#contact" className="px-6 py-2 rounded-full border border-primary 
+              <a href="/Users/nautilus/Desktop/BEAUTIFUL-PORTFOLIO/public/projects/Tianji's resume (Duke).pdf" className="px-6 py-2 rounded-full border border-primary 
                 text-primary hover:bg-primary/10 transition-colors duration-300">
                   {" "}
                   Curriculum Vitae

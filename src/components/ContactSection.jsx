@@ -8,7 +8,7 @@ import {
     Facebook,
     Send,
 } from "lucide-react";
-import {cn} from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useToast } from "/Users/nautilus/Desktop/BEAUTIFUL-PORTFOLIO/src/hooks/use-toast.js";
 import { useState } from "react";
 
@@ -31,7 +31,7 @@ export const ContactSection = () => {
         }, 1500);
     };
   return (
-    <section id="Contact" className="py-24 px-4 relative bg-secondary/30">
+    <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary"> Touch </span>
@@ -125,7 +125,7 @@ export const ContactSection = () => {
                       required 
                       className="w-full px-4 py-3 rounded-md border border-input 
                       bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                      placeholder="Please Enter Here..."
+                      placeholder="John Doe"
                     />
                 </div>
 
@@ -140,7 +140,7 @@ export const ContactSection = () => {
                       required 
                       className="w-full px-4 py-3 rounded-md border border-input 
                       bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                      placeholder="Please Enter Here..."
+                      placeholder="johndoe@example.com"
                     />
                 </div>
 
@@ -159,7 +159,7 @@ export const ContactSection = () => {
                       required 
                       className="w-full px-4 py-3 rounded-md border border-input 
                       bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary resize-none"
-                      placeholder="Please Enter Here..."
+                      placeholder="Please write your message here"
                     />
                 </div>
 
