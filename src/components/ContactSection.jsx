@@ -9,7 +9,7 @@ import {
     Send,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useToast } from "/Users/nautilus/Desktop/BEAUTIFUL-PORTFOLIO/src/hooks/use-toast.js";
+import { useToast } from "/src/hooks/use-toast.js";
 import { useState } from "react";
 
 export const ContactSection = () => {

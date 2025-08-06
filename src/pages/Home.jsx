@@ -1,5 +1,5 @@
 import { ThemeToggle } from "../components/ThemeToggle";
-import { StarBackground } from "/Users/nautilus/Desktop/Portfolio/vite-project/src/components/StarBackground.jsx";
+import { StarBackground } from "../components/StarBackground.jsx";
 import { Navbar } from "@/components/Navbar";
 import { HomeSection } from "../components/HomeSection";
 import { AboutSection } from "../components/AboutSection";
@@ -9,7 +9,7 @@ import { AwardsSection } from "../components/AwardsSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
-import  { TravelSection } from "../components/TravelSection";
+// import  { TravelSection } from "../components/TravelSection";
 import { Footer } from "../components/Footer";
 
 
@@ -34,7 +34,7 @@ export const Home = () => {
             <SkillsSection />
             <ProjectsSection />
             <ContactSection />
-            <TravelSection />
+            {/* <TravelSection /> */}
         </main>
         {/* Footer */}
             <Footer />

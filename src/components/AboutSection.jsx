@@ -5,30 +5,33 @@ export const AboutSection = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          自己 <span className="text-primary"> 紹介 </span>
+          Self <span className="text-primary"> Introduction </span>
         </h2>
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-1.5xl font-semibold"> 
-              初めまして。リー・ティアンジと申します。 </h3>
+              Hello! My name is Tianji Li. </h3>
 
-            <p className="text-muted-foreground">
-              二十二歳です。カリフォルニア大学サンタバーバラ校にもう卒業して、 
-              学士号を取ったことがありました。現在日立という日本の最もの有名な会社で働いています。 
-              日立研究所でAIと、機械学習のような技術を研究しています。来月、電気工学の修士号を取るために、 
-              デユーク大学に入学する予定です。将来は、AIと機械学習の分野で、
-              日本とアメリカの技術を融合させた新しい技術を開発したいと思っています。 
+            <p className="text-muted-foreground text-sm text-left">
+              I am 22 years old and recently graduated from the University of California, Santa Barbara, 
+              with a Bachelor of Science degree in Statistics and Data Science and a GPA of 3.73/4. Following my graduation, 
+              I have been employed at The Hitachi Group, one of Japan's most distinguished companies, where I engage 
+              in research on artificial intelligence and machine learning at the Hitachi Research Institute.
+              Starting Fall 2025, I will begin my Master's study in Electrical and Computer Engineering 
+              at Duke University with research focus on software engineering. My long-term aspiration is to develop 
+              innovative technologies that integrate the strengths of both Japanese and American advancements in AI.
             </p>
 
-            <p className="text-muted-foreground">
-              学歴の以外に、私は一人で西、南、東と北東のアメリカに車で旅行したことがあります。
-              また、2025年6月に、 私は一人で19日間、日本の大阪から、豊中、丹波篠山、京都、福知山、宮津、
-              京丹後、鳥取、倉吉、米子、松江、そして九州、四国、 伊豆半島と能登半島の
-              約４０００マールに運転して旅行しました。旅行家と冒険家だと思います。 サンタバーバラにいる時、
-              よくスケートボードで海の近くで遊んでいます。これらの他に、趣味と技能がたくさんあります。 
-              後で皆さんに説明します。どうぞよろしくお願いします。
+            <p className="text-muted-foreground text-sm text-left">
+              Outside of my academic and professional pursuits, I am passionate about travel and exploration. 
+              I have independently driven across various regions of the United States, including the west, 
+              south, east, northeast, even Canada. In June 2025, I undertook a solo 19-day road trip across Japan, 
+              covering approximately 4,000 kilometers through Kansai, Chugoku, Kyushuu, Shikoku, and Toukai, and reached
+              as far as the southernmost and westernmost points of Japan main island. During my time in Santa Barbara, 
+              I often spent my free time skateboarding along the coastline. I also possess a wide range of personal interests 
+              and skills, which I would be glad to discuss further. Thank you very much for this opportunity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#contact" className="cosmic-button">
@@ -36,7 +39,7 @@ export const AboutSection = () => {
                 Contact
               </a>
 
-              <a href="/Users/nautilus/Desktop/BEAUTIFUL-PORTFOLIO/public/projects/Tianji's resume (Duke).pdf" className="px-6 py-2 rounded-full border border-primary 
+              <a href="/projects/Tianji's resume (Duke).pdf" className="px-6 py-2 rounded-full border border-primary 
                 text-primary hover:bg-primary/10 transition-colors duration-300">
                   {" "}
                   Curriculum Vitae
@@ -53,7 +56,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semi-bold text-lg"> Web Development</h4>
+                  <h4 className="text-semi-bold text-lg"> AI, Software & Large Language Models </h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications using modern frameworks, 
                     such as React, Next.js, and Angular.
@@ -68,7 +71,7 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semi-bold text-lg"> UI/UX Design </h4>
+                  <h4 className="text-semi-bold text-lg"> Data Science & Machine Learning </h4>
                   <p className="text-muted-foreground">
                     Designing intuitive and user-friendly interfaces for web and mobile applications.
                   </p>
@@ -82,7 +85,7 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semi-bold text-lg"> Project Management </h4>
+                  <h4 className="text-semi-bold text-lg"> Management </h4>
                   <p className="text-muted-foreground">
                     Learning projects from conception to completion with agile methodologies.
                   </p>

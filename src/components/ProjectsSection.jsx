@@ -6,32 +6,32 @@ const projects = [
       id: 1,
       title: "Job Placement Prediction",
       description: "A machine learning model that predicts job placement based on user input",
-      image: "/projects/IMG_3256.jpg",
-      tags: ["React", "TailwindCSS", "Supabase"],
+      image: "/projects/20210330112333_image1.jpg",
+      tags: ["pandas", "scikit-learn", "R", "Machine Learning"],
       demoUrl: "#", // live demo
-      githubUrl: "#", //github repository
+      githubUrl: "https://github.com/hitianji/job-placement-prediction", //github repository
     },
 
     {
       id: 2,
-      title: "Orbit Analytics Dashboard",
+      title: "Post-Pandemic Mobility Trend Analysis",
       description: 
-      "Interactive analytics dashboard with data visualization tools and a user-friendly interface.",
-      image: "/projects/IMG_1760.JPG",
-      tags: ["TypeScript", "D3.js", "Next.js"],
+      "Analyzing Post-Pandemic Mobility Trends: A Time-Series Approach Using the Box-Jenkins and Spectral Analysis Methods",
+      image: "/projects/post_pandemic_analysis.png",
+      tags: ["Python", "pandas", "matplotlib", "statsmodels", "Time Series Analysis"],
       demoUrl: "#", // live demo
-      githubUrl: "#", //github repository
+      githubUrl: "https://github.com/hitianji/post-pandemic-mobility", //github repository
     },
 
     {
       id: 3,
-      title: "E-commerce Platform",
+      title: "Global Happiness Analysis",
       description: 
-      "Full-featured e-commerce platform with user authentication, payment gateway integration, and a robust admin dashboard.",
-      image: "/projects/IMG_3254.jpg",
-      tags: ["React", "Node.js", "Stripe"],
+      "Analysis of Global Happiness Trends and Economic Indicators",
+      image: "/projects/global_happiness.png",
+      tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "R", "Data Analysis"],
       demoUrl: "#", // live demo
-      githubUrl: "#", //github repository
+      githubUrl: "https://github.com/hitianji/happiness-economy-analysis", //github repository
     },
 ];
 

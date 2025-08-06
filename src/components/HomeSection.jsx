@@ -20,14 +20,14 @@ export const HomeSection = () => {
                         Tianji Li
                     </span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                {/* <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                   Master student in Electrical and Computer Engineering at Duke University
-                </p>
+                </p> */}
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                <a href="#contact" className="cosmic-button">
+                {/* <a href="#contact" className="cosmic-button">
                   Contact
-                </a>
+                </a> */}
               </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
